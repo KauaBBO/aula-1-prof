@@ -1,12 +1,12 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.Duck)
-    basic.pause(500)
+    basic.showIcon(IconNames.SmallHeart)
+    basic.pause(200)
     basic.showLeds(`
-        . . . . .
-        . # # . .
-        # # # . .
-        . # # # #
+        . # . # .
+        # # # # #
+        # # # # #
         . # # # .
+        . . # . .
         `)
-    basic.pause(500)
+    basic.pause(200)
 })
